@@ -17,14 +17,15 @@ A modern React + TypeScript web app celebrating the joy of cooking. Featuring vi
 │   │   ├── cards/        # Card components
 │   │   ├── common/       # Commonly shared components
 │   │   ├── layout/       # Layout components
-│   ├── constants/            # Constant values used across the app
-│   ├── pages/                # Page-specific components
-│   ├── sections/     # App sections such as headers, footers
-│   ├── styles/       # Component-specific styles
-│   │   ├── components/ # Styles for reusable components
-│   │   ├── pages/    # Page-specific styles
-│   │   └── sections/ # Section-specific styles
+│   ├── constants/        # Constant values used across the app
+│   ├── pages/            # Page-specific components
+│   ├── sections/         # App sections such as headers, footers
+│   ├── styles/           # Component-specific styles
+│   │   ├── components/   # Styles for reusable components
+│   │   ├── pages/        # Page-specific styles
+│   │   └── sections/     # Section-specific styles
 │   ├── types/            # TypeScript type definitions
+│   ├── interface/        # Interface configuration 
 │   ├── App.css           # Global CSS
 │   ├── App.test.js       # Unit tests for the main app
 │   ├── App.tsx           # Main React app component
