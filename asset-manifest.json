@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BITE-ME-IF-YOU-CAN/static/css/main.d01d5506.css",
+    "main.js": "/BITE-ME-IF-YOU-CAN/static/js/main.9dfb57ba.js",
+    "static/js/453.5fb0a421.chunk.js": "/BITE-ME-IF-YOU-CAN/static/js/453.5fb0a421.chunk.js",
+    "static/media/logo.svg": "/BITE-ME-IF-YOU-CAN/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/BITE-ME-IF-YOU-CAN/index.html",
+    "main.d01d5506.css.map": "/BITE-ME-IF-YOU-CAN/static/css/main.d01d5506.css.map",
+    "main.9dfb57ba.js.map": "/BITE-ME-IF-YOU-CAN/static/js/main.9dfb57ba.js.map",
+    "453.5fb0a421.chunk.js.map": "/BITE-ME-IF-YOU-CAN/static/js/453.5fb0a421.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d01d5506.css",
+    "static/js/main.9dfb57ba.js"
+  ]
+}
