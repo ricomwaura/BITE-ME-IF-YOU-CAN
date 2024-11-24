@@ -2,15 +2,15 @@
   "name": "bite-me-if-you-can",
   "version": "0.1.0",
   "private": true,
-  "description": "",
+  "description": "A modern React + TypeScript web app celebrating the joy of cooking. Featuring visually appealing recipe layouts, detailed preparation steps, and intuitive navigation, this project highlights clean design, responsive functionality, and scalable code architecture. A delicious showcase of creativity and development best practices.",
   "author": {
-    "name": "",
-    "url": ""
+    "name": "Eric Mwaura",
+    "url": "https://github.com/ricomwaura"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ricomwaura/BITE-ME-IF-YOU-CAN.git"
   },
   "scripts": {
     "start": "react-scripts start",
