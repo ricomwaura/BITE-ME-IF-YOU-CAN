@@ -14,6 +14,7 @@ import { TimeMeta } from "./TimeMeta";
  * @property {string} title - The title of the recipe.
  * @property {string} description - Brief description of the recipe.
  * @property {string} category - Represents the category the recipe belongs to.
+ * @property {string} views - Represents the total number of recipe viewers.
  * @property {string[]} [tags] - Optional tags associated with the recipe.
  * @property {ReviewMeta} reviewMeta - Review data for a recipe.
  * @property {ImageMeta} imageMeta - ImageMeta with cover, badge and icon.
@@ -29,6 +30,7 @@ import { TimeMeta } from "./TimeMeta";
  *      title: "Mwaura's Coffee",
  *      description: "A family-favorite coffee recipe.",
  *      category: "Beverage",
+ *      views: 23,
  *      tags: ["Coders", "What Is Sleep"],
  *      reviewMeta: {
  *          total: 1,
@@ -38,7 +40,7 @@ import { TimeMeta } from "./TimeMeta";
  *                  name: "Eric",
  *                  avatar: "https://eric-image-example.png",
  *                  location: "Github",
- *                  rating: 5,
+ *                  rating: 4,
  *                  comment: "Add creamer.",
  *                  helpful: true,
  *                  date: "November 23, 2024"
@@ -93,6 +95,7 @@ export interface Recipe {
     title: string;
     description: string;
     category: string;
+    views: number;
     tags?: string[];
     reviewMeta: ReviewMeta;
     imageMeta: ImageMeta;
