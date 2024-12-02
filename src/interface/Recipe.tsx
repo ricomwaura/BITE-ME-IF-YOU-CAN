@@ -11,6 +11,7 @@ import { TimeMeta } from "./TimeMeta";
  * @interface Recipe
  * @extends ImageMeta
  * 
+ * @property {string} id - The unique identifier for the recipe.
  * @property {string} title - The title of the recipe.
  * @property {string} description - Brief description of the recipe.
  * @property {string} category - Represents the category the recipe belongs to.
@@ -27,6 +28,7 @@ import { TimeMeta } from "./TimeMeta";
  * 
  * @example
  * const familyRecipe: Recipe = {
+ *      id: "recipe-489",
  *      title: "Mwaura's Coffee",
  *      description: "A family-favorite coffee recipe.",
  *      category: "Beverage",
@@ -92,6 +94,7 @@ import { TimeMeta } from "./TimeMeta";
  * }
  */
 export interface Recipe {
+    id: string;
     title: string;
     description: string;
     category: string;

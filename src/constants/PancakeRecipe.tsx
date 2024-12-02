@@ -58,6 +58,7 @@ import reviewerC from "assets/images/reviewer-c.png"
  * @property {Array<string>} directions - Step-by-step instructions for preparing the recipe.
  */
 export const pancakeRecipe: Recipe = {
+    id: "recipe-489",
     title: "Fluffy Morning Pancakes",
     description: "Start your day with these golden, airy pancakes that melt in your mouth.",
     category: "Breakfast",
