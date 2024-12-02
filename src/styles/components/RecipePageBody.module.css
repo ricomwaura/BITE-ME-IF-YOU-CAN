@@ -1,0 +1,11 @@
+.recipe-page-body {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: 32px;
+}
