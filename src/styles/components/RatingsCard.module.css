@@ -1,0 +1,94 @@
+.ratings-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+}
+
+.rating-text {
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    line-height: 31px;
+    font-weight: 400;
+    font-family: 'Nunito Sans';
+    color: #000;
+    text-align: left;
+}
+
+.star-container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-shrink: 0;
+    background-color: #c3d5b7;
+    border-radius: 38px;
+    padding: 4px 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.star-container:hover .star {
+    transform: scale(1.05);
+}
+
+.star-container:hover .star.active {
+    transform: scale(1.2);
+}
+
+.star {
+    width: 24px;
+    height: 24px;
+    color: rgba(245, 230, 214, 1);
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.star.active {
+    color: rgba(233, 164, 113, 1);
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .ratings-card {
+        gap: 12px;
+    }
+
+    .rating-text {
+        font-size: 16px;
+        line-height: 28px
+    }
+
+    .star-container {
+        gap: 6px;
+        padding: 3px;
+    }
+
+    .star {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ratings-card {
+        gap: 10px;
+    }
+
+    .rating-text {
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .star-container {
+        gap: 4px;
+        padding: 2px;
+    }
+
+    .star {
+        width: 18px;
+        height: 18px;
+    }
+}
