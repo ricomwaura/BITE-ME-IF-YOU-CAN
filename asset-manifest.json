@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/BITE-ME-IF-YOU-CAN/static/css/main.e4d93205.css",
+    "main.js": "/BITE-ME-IF-YOU-CAN/static/js/main.2fbe25ea.js",
+    "static/js/453.5fb0a421.chunk.js": "/BITE-ME-IF-YOU-CAN/static/js/453.5fb0a421.chunk.js",
+    "static/media/default-cover.png": "/BITE-ME-IF-YOU-CAN/static/media/default-cover.f5984cdc3648f126f584.png",
+    "static/media/logo.png": "/BITE-ME-IF-YOU-CAN/static/media/logo.3132533ee6d7f6bd030e.png",
+    "static/media/reviewer-a.png": "/BITE-ME-IF-YOU-CAN/static/media/reviewer-a.d98ab55a2d3e37007d4b.png",
+    "static/media/reviewer-c.png": "/BITE-ME-IF-YOU-CAN/static/media/reviewer-c.97f8d5b01a9b616683f8.png",
+    "static/media/reviewer-b.png": "/BITE-ME-IF-YOU-CAN/static/media/reviewer-b.d5f83696c27049009f20.png",
+    "index.html": "/BITE-ME-IF-YOU-CAN/index.html",
+    "static/media/quotes.svg": "/BITE-ME-IF-YOU-CAN/static/media/quotes.10c4aae01565461ce870428c631d627a.svg",
+    "main.e4d93205.css.map": "/BITE-ME-IF-YOU-CAN/static/css/main.e4d93205.css.map",
+    "main.2fbe25ea.js.map": "/BITE-ME-IF-YOU-CAN/static/js/main.2fbe25ea.js.map",
+    "453.5fb0a421.chunk.js.map": "/BITE-ME-IF-YOU-CAN/static/js/453.5fb0a421.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4d93205.css",
+    "static/js/main.2fbe25ea.js"
+  ]
+}
