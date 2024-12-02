@@ -12,6 +12,7 @@ import reviewerC from "assets/images/reviewer-c.png"
  * @property {string} description - A brief description of the recipe.
  * @property {string} category - The category of the recipe.
  * @property {number} views - The number of viewers.
+ * @property {string} prepared - Represents the total number of users who prepared the recipe.
  * @property {Object} reviewMeta - Metadata related to recipe reviews.
  * @property {number} reviewMeta.total - Total number of reviews.
  * @property {number} reviewMeta.rating - Average rating of the recipe.
@@ -63,9 +64,10 @@ export const pancakeRecipe: Recipe = {
     description: "Start your day with these golden, airy pancakes that melt in your mouth.",
     category: "Breakfast",
     views: 20,
+    prepared: 19,
     reviewMeta: {
         total: 3,
-        rating: 4.9,
+        rating: 3.9,
         reviews: [
             {
                 name: "Emma Green",

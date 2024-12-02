@@ -16,6 +16,7 @@ import { TimeMeta } from "./TimeMeta";
  * @property {string} description - Brief description of the recipe.
  * @property {string} category - Represents the category the recipe belongs to.
  * @property {string} views - Represents the total number of recipe viewers.
+ * @property {string} prepared - Represents the total number of users who prepared the recipe.
  * @property {string[]} [tags] - Optional tags associated with the recipe.
  * @property {ReviewMeta} reviewMeta - Review data for a recipe.
  * @property {ImageMeta} imageMeta - ImageMeta with cover, badge and icon.
@@ -33,6 +34,7 @@ import { TimeMeta } from "./TimeMeta";
  *      description: "A family-favorite coffee recipe.",
  *      category: "Beverage",
  *      views: 23,
+ *      prepared: 20,
  *      tags: ["Coders", "What Is Sleep"],
  *      reviewMeta: {
  *          total: 1,
@@ -99,6 +101,7 @@ export interface Recipe {
     description: string;
     category: string;
     views: number;
+    prepared: number;
     tags?: string[];
     reviewMeta: ReviewMeta;
     imageMeta: ImageMeta;
