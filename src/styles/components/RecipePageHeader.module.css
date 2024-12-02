@@ -114,9 +114,11 @@
 
     .controls-views-wrapper {
         flex-direction: column;
+        gap: 10px;
     }
 
     .views-wrapper {
+        width: 100%;
         gap: 4px;
         font-size: 14px;
     }
