@@ -12,6 +12,7 @@ const App: React.FC = () => {
       <div className="App">
         <Routes>
           <Route path="/" element={<RecipePage />} />
+          <Route path="/BITE-ME-IF-YOU-CAN" element={<RecipePage />} />
         </Routes>
       </div>
     </Router>
