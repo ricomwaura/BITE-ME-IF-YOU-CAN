@@ -8,7 +8,7 @@ import 'styles/pages/RecipePage.css'
 const selectedRecipe: Recipe = pancakeRecipe;
 
 /**
- * RecipePAge component renders the main recipe page displaying the header, body and footer.
+ * RecipePage component renders the main recipe page displaying the header, body and footer.
  * 
  * @component
  * @example

@@ -30,6 +30,28 @@ interface Action {
     handle: () => void;
 }
 
+/**
+ * ActionControls component renders control buttons allowing the user to like, save or share the recipe.
+ * @component
+ * 
+ * @param {string} id - The unique identifier for the selected recipe.
+ * 
+ * @example
+ * Example usage:
+ * ```tsx
+ * import ActionControls from 'components/common/ActionControls'
+ * 
+ * const App: React.FC = () => (
+ *      <div>
+ *          <ActionControls id='recipe-001' />
+ *      </div>
+ * );
+ * 
+ * export default App;
+ * ```
+ * 
+ * @returns ActionControls 
+ */
 const ActionControls: React.FC<ActionControlsProps> = ({ id }) => {
     const [like, setLike] = useState(false)
     const [saveRecipe, setSaveRecipe] = useState(false)
