@@ -1,3 +1,4 @@
+import RecipePageBody from 'components/layout/RecipePageBody';
 import RecipePageHeader from 'components/layout/RecipePageHeader';
 import { pancakeRecipe } from 'constants/PancakeRecipe'
 import { Recipe } from 'interface/Recipe'
@@ -35,6 +36,7 @@ const RecipePage: React.FC = () => {
                 views={selectedRecipe.views} 
                 cover={selectedRecipe.imageMeta.cover}
             />
+            <RecipePageBody recipe={selectedRecipe} />
         </div>
     )
 }
