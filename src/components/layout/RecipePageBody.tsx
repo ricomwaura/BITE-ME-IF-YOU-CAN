@@ -3,6 +3,7 @@ import { Recipe } from 'interface/Recipe'
 import React from 'react'
 import styles from 'styles/components/RecipePageBody.module.css'
 import ReviewsFeed from './ReviewsFeed';
+import RecipeIngredients from './RecipeIngredients';
 
 /**
  * Represents Body properties.
@@ -48,6 +49,7 @@ const RecipePageBody: React.FC<RecipePageBodyProps> = ({ recipe }) => {
                 rating={recipe.reviewMeta.rating}
             />
             <ReviewsFeed reviews={recipe.reviewMeta.reviews} />
+            <RecipeIngredients ingredients={recipe.ingredients} />
         </div>
     )
 }
