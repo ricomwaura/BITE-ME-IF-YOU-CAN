@@ -1,0 +1,89 @@
+.ingredient {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    gap: 15px;
+    text-align: start;
+    font-size: 20px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Nunito Sans';
+    transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.ingredient:hover {
+    background-color: #f5e6d6;
+    transform: scale(1.01);
+}
+
+.position {
+    position: relative;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid #3a2d24;
+    font-family: 'Nunito Sans';
+    color: #3a2d24;
+    font-size: 18px;
+    font-weight: 600;
+    transition: transform 0.3s ease-in-out;
+}
+
+.position:hover {
+    transform: scale(1.1)
+}
+
+.ingredient p {
+    width: 100%;
+    letter-spacing: 0.5px;
+    text-align: left;
+    display: inline-block;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .ingredient {
+        padding: 6px 12px;
+        font-size: 18px;
+        gap: 10px;
+    }
+
+    .position {
+        height: 40px;
+        width: 40px;
+        font-size: 16px;
+    }
+
+    .ingredient p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ingredient {
+        padding: 4px 8px;
+        font-size: 16px;
+        gap: 8px;
+    }
+
+    .position {
+        height: 35px;
+        width: 35px;
+        font-size: 14px;
+    }
+
+    .ingredient p {
+        font-size: 14px;
+    }
+}
