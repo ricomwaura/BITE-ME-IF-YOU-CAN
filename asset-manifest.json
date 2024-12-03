@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BITE-ME-IF-YOU-CAN/static/css/main.12090f29.css",
-    "main.js": "/BITE-ME-IF-YOU-CAN/static/js/main.3faa529a.js",
+    "main.css": "/BITE-ME-IF-YOU-CAN/static/css/main.a5020aa9.css",
+    "main.js": "/BITE-ME-IF-YOU-CAN/static/js/main.5a5db0b5.js",
     "static/js/453.5fb0a421.chunk.js": "/BITE-ME-IF-YOU-CAN/static/js/453.5fb0a421.chunk.js",
     "static/media/default-cover.png": "/BITE-ME-IF-YOU-CAN/static/media/default-cover.f5984cdc3648f126f584.png",
     "static/media/logo.png": "/BITE-ME-IF-YOU-CAN/static/media/logo.3132533ee6d7f6bd030e.png",
@@ -10,12 +10,12 @@
     "static/media/reviewer-b.png": "/BITE-ME-IF-YOU-CAN/static/media/reviewer-b.d5f83696c27049009f20.png",
     "index.html": "/BITE-ME-IF-YOU-CAN/index.html",
     "static/media/quotes.svg": "/BITE-ME-IF-YOU-CAN/static/media/quotes.10c4aae01565461ce870428c631d627a.svg",
-    "main.12090f29.css.map": "/BITE-ME-IF-YOU-CAN/static/css/main.12090f29.css.map",
-    "main.3faa529a.js.map": "/BITE-ME-IF-YOU-CAN/static/js/main.3faa529a.js.map",
+    "main.a5020aa9.css.map": "/BITE-ME-IF-YOU-CAN/static/css/main.a5020aa9.css.map",
+    "main.5a5db0b5.js.map": "/BITE-ME-IF-YOU-CAN/static/js/main.5a5db0b5.js.map",
     "453.5fb0a421.chunk.js.map": "/BITE-ME-IF-YOU-CAN/static/js/453.5fb0a421.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12090f29.css",
-    "static/js/main.3faa529a.js"
+    "static/css/main.a5020aa9.css",
+    "static/js/main.5a5db0b5.js"
   ]
 }
