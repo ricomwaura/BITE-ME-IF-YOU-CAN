@@ -51,7 +51,6 @@ A modern React + TypeScript web app celebrating the joy of cooking. Featuring vi
 - **Modern Design**: Intuitive, responsive UI with clean and scalable code.
 - **TypeScript Support**: Strongly-typed codebase for better reliability.
 - **React Router**: Smooth navigation between pages.
-- **Visualizations**: Charts and graphs with `react-plotly.js`.
 - **Theming and Styling**: `Sass` for modular and scalable styles.
 
 ## Installation
