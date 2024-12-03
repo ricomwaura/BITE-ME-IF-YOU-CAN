@@ -1,8 +1,8 @@
-import ReviewCard from 'components/cards/ReviewCard';
 import RatingsOverview from 'components/common/RatingsOverview';
 import { Recipe } from 'interface/Recipe'
 import React from 'react'
 import styles from 'styles/components/RecipePageBody.module.css'
+import ReviewsFeed from './ReviewsFeed';
 
 /**
  * Represents Body properties.
@@ -47,7 +47,7 @@ const RecipePageBody: React.FC<RecipePageBodyProps> = ({ recipe }) => {
                 prepared={recipe.prepared}
                 rating={recipe.reviewMeta.rating}
             />
-            <ReviewCard review={recipe.reviewMeta.reviews[0]} />
+            <ReviewsFeed reviews={recipe.reviewMeta.reviews} />
         </div>
     )
 }
