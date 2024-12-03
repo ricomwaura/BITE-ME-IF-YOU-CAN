@@ -2,6 +2,8 @@
 
 A modern React + TypeScript web app celebrating the joy of cooking. Featuring visually appealing recipe layouts, detailed preparation steps, and intuitive navigation, this project highlights clean design, responsive functionality, and scalable code architecture. A delicious showcase of creativity and development best practices.
 
+[Live Demo](https://ricomwaura.github.io/BITE-ME-IF-YOU-CAN/)
+
 ## Project Structure
 
 ```
