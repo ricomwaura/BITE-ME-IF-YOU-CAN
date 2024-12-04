@@ -1,0 +1,46 @@
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+}
+
+.nutrition-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.nutrition-table tr:last-child td {
+    border-bottom: none;
+}
+
+.nutrition-table td:first-child {
+    font-weight: 700;
+    color: #3a2d2f;
+}
+
+.nutrition-table td:last-child {
+    text-align: right;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .nutrition-table {
+        font-size: 14px;
+    }
+
+    .nutrition-table td {
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nutrition-table {
+        font-size: 12px;
+    }
+
+    .nutrition-table td {
+        padding: 4px 8px;
+    }
+}
