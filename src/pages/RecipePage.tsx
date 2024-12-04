@@ -2,7 +2,7 @@ import RecipePageBody from 'components/layout/RecipePageBody';
 import RecipePageHeader from 'components/layout/RecipePageHeader';
 import { pancakeRecipe } from 'constants/PancakeRecipe'
 import { Recipe } from 'interface/Recipe'
-import React from 'react'
+import React, { useEffect } from 'react'
 import 'styles/pages/RecipePage.css'
 
 // Default pancake recipe.
@@ -28,15 +28,29 @@ const selectedRecipe: Recipe = pancakeRecipe;
  * ```
  */
 const RecipePage: React.FC = () => {
+    useEffect(() => {
+        const headerElement = document.querySelector('.header');
+        if (headerElement) {
+            const headerHeight = headerElement.getBoundingClientRect().height;
+            document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
+        }
+    }, []);
     return (
         <div className={'recipe-page'}>
-            <RecipePageHeader 
-                id={selectedRecipe.id} 
-                title={selectedRecipe.title}
-                views={selectedRecipe.views} 
-                cover={selectedRecipe.imageMeta.cover}
-            />
-            <RecipePageBody recipe={selectedRecipe} />
+            <div className={'header'}>
+                <RecipePageHeader 
+                    id={selectedRecipe.id} 
+                    title={selectedRecipe.title}
+                    views={selectedRecipe.views} 
+                    cover={selectedRecipe.imageMeta.cover}
+                />
+            </div>
+            <div className={'body'}>
+                <RecipePageBody recipe={selectedRecipe} />
+            </div>
+            <div className={'footer'}>
+                <p className='copyright'>BITE © {new Date().getFullYear()}</p>
+            </div>
         </div>
     )
 }
