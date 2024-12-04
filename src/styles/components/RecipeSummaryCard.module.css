@@ -1,0 +1,211 @@
+.recipe-summary-card {
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0px 0px 16px 0px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 26px 26px 0px 0px;
+    padding: 10px;
+    gap: 8px;
+    background: linear-gradient(113.95deg, #3a2d24, #a07c63);
+
+    p {
+        color: #fff
+    }
+}
+
+.creator {
+    font-family: 'Pacifico';
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.bio {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.summary-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 30px;
+
+    p {
+        width: 100%;
+    }
+}
+
+.nutrition-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 0px 30px 30px;
+
+    p {
+        width: 100%;
+    }
+}
+
+.button {
+    width: 300px;
+    height: 48px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    line-height: 31px;
+    gap: 8px;
+    color: #fff;
+    font-family: 'Poppins';
+    box-shadow: 1px 1px 4px rgba(165, 156, 147, 0.25);
+    border-radius: 8px;
+    background-color: #ff8a65;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 44px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #ff8a65;
+    background-color: #fff;
+    border-right: 2px solid #ff8a65;
+    border-bottom: 2px solid #ff8a65;
+    transform: scale(1.05);
+}
+
+.notes {
+    font-family: 'Nunito Sans';
+    color: #333;
+    font-size: small;
+    padding: 10px 30px;
+}
+
+@media (max-width: 1024px) {
+    .recipe-summary-card {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .summary-list {
+        padding: 20px;
+    }
+
+    .button {
+        width: 250px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .recipe-summary-card {
+        padding: 0px 0px 15px 0px;
+    }
+
+    .header {
+        padding: 8px;
+        gap: 6px;
+    }
+
+    .creator {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .bio {
+        font-size: 14px;
+    }
+
+    .avatar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .summary-list {
+        padding: 16px;
+    }
+
+    .button {
+        width: 200px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .recipe-summary-card {
+        padding: 0px 0px 10px 0px;
+    }
+
+    .header {
+        padding: 6px;
+        gap: 4px;
+    }
+
+    .creator {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .bio {
+        font-size: 12px;
+    }
+
+    .avatar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .summary-list {
+        padding: 12px;
+    }
+
+    .button {
+        width: 180px;
+        font-size: 14px;
+        padding: 6px 30px;
+    }
+
+    .notes {
+        font-size: 12px;
+        padding: 6px 20px;
+    }
+}
