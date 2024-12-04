@@ -4,6 +4,8 @@ import React from 'react'
 import styles from 'styles/components/RecipePageBody.module.css'
 import ReviewsFeed from './ReviewsFeed';
 import RecipeIngredients from './RecipeIngredients';
+import RecipeDirections from './RecipeDirections';
+import RecipeSummaryCard from 'components/cards/RecipeSummaryCard';
 
 /**
  * Represents Body properties.
@@ -44,12 +46,25 @@ interface RecipePageBodyProps {
 const RecipePageBody: React.FC<RecipePageBodyProps> = ({ recipe }) => {
     return (
         <div className={styles['recipe-page-body']}>
-            <RatingsOverview 
-                prepared={recipe.prepared}
-                rating={recipe.reviewMeta.rating}
-            />
-            <ReviewsFeed reviews={recipe.reviewMeta.reviews} />
-            <RecipeIngredients ingredients={recipe.ingredients} />
+            <div className={styles['top-section']}>
+                <div className={styles['left']}>
+                    <RatingsOverview 
+                        prepared={recipe.prepared}
+                        rating={recipe.reviewMeta.rating}
+                    />
+                    <ReviewsFeed reviews={recipe.reviewMeta.reviews} />
+                    <RecipeIngredients ingredients={recipe.ingredients} />
+                </div>
+                <div className={styles['right']}>
+                    <RecipeSummaryCard
+                        creatorMeta={recipe.creatorMeta}
+                        timeMeta={recipe.timeMeta}
+                        servingMeta={recipe.servingMeta}
+                        nutritionMeta={recipe.nutritionMeta}
+                    />
+                </div>
+            </div>
+            <RecipeDirections directions={recipe.directions} />
         </div>
     )
 }
