@@ -91,3 +91,14 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+## Figma Assets
+* [Design File](https://github.com/ricomwaura/BITE-ME-IF-YOU-CAN/releases/download/v1.0.0/Bite.Me.If.You.Can.fig)
+* [Recipe Page](https://github.com/ricomwaura/BITE-ME-IF-YOU-CAN/releases/download/v1.0.0/MacBook.Pro.16_.-.2.png)
+* [Color Scheme](https://github.com/ricomwaura/BITE-ME-IF-YOU-CAN/releases/download/v1.0.0/Color.Schemes.1.png)
+* [Fonts](https://github.com/ricomwaura/BITE-ME-IF-YOU-CAN/releases/download/v1.0.0/Fonts.png)
+* [Button](https://github.com/ricomwaura/BITE-ME-IF-YOU-CAN/releases/download/v1.0.0/primary-button.png)
+* [Recipe Card](https://github.com/ricomwaura/BITE-ME-IF-YOU-CAN/releases/download/v1.0.0/iPad.mini.8.3.-.1.png)
+* [Summary Card](https://github.com/ricomwaura/BITE-ME-IF-YOU-CAN/releases/download/v1.0.0/iPad.mini.8.3.-.2.png)
+* [Initial Page](https://github.com/ricomwaura/BITE-ME-IF-YOU-CAN/releases/download/v1.0.0/iPad.mini.8.3.-.3.png)
+* [Wireframe](https://github.com/ricomwaura/BITE-ME-IF-YOU-CAN/releases/download/v1.0.0/MacBook.Pro.16_.-.1.png)
