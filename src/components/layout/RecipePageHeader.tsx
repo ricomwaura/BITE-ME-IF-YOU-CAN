@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import styles from 'styles/components/RecipePageHeader.module.css'
-import logo from 'assets/images/logo.png'
 import defaultCover from 'assets/images/default-cover.png'
 import { Icon } from '@iconify/react';
 import ActionControls from 'components/common/ActionControls';
@@ -50,28 +49,12 @@ interface HeaderProps {
  * @returns RecipePageHeader
  */
 const RecipePageHeader: React.FC<HeaderProps> = ({ id, title, views = 0, cover = defaultCover }) => {
-    const [isHidden, setIsHidden] = useState(false);
-
-    useEffect(() => {
-        // Hide the header after 5 seconds
-        const timer = setTimeout(() => {
-            setIsHidden(true);
-        }, 3000);
-
-        // Cleanup the timer
-        return () => clearTimeout(timer);
-    }, []);
-
-    console.log(`id: ${id}, title: ${title}` )
     return (
         
         /* eslint-disable @typescript-eslint/restrict-template-expressions */
-        <div className={` ${styles['recipe-header']} ${isHidden ? styles['top-collapsed'] : ''}`}
+        <div className={styles['recipe-header']}
             style={{ backgroundImage: `url(${cover})` }}
-        >   
-            <div className={`${styles['top-header']} ${isHidden ? styles['hidden'] : ''}`}>
-                <img src={logo} className={styles['logo']} alt='Logo'/>
-            </div>
+        >
         {/* eslint-enable @typescript-eslint/restrict-template-expressions */}
             <div className={styles['bottom-header']}>
                 <h1 className={styles['recipe-title']}>{title}</h1>
