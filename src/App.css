@@ -40,3 +40,21 @@
     transform: rotate(360deg);
   }
 }
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(58, 45, 36, 1), rgba(195, 213, 183, 1), rgba(74, 78, 42, 1)); /* Gradient background */
+  border-radius: 10px;
+  cursor: default;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(74, 78, 42, 1), rgba(195, 213, 183, 1), rgba(58, 45, 36, 1)); /* Gradient background on hover */
+}
