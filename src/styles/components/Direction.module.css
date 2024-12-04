@@ -1,0 +1,120 @@
+.direction-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.direction {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    gap: 15px;
+    text-align: start;
+    font-size: 20px;
+    color: #333;
+    border-bottom: none;
+    font-family: 'Nunito Sans';
+    cursor: pointer;
+    transition: background-color  0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.direction:hover {
+    background-color: #f5e6d6;
+    transform: scale(1.01);
+}
+
+.complete {
+    background-color: #f0f7e6;
+    border-bottom: 1px solid #ddd;
+}
+
+.position {
+    position: relative;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid #3a2d24;
+    font-family: 'Nunito Sans';
+    color: #3a2d24;
+    font-size: 18px;
+    font-weight: 600;
+    transition: transform 0.3s ease-in-out;
+}
+
+.done {
+    background-color: #a3b08e;
+    color: #fff;
+}
+
+.vertical-line {
+    width: 1px;
+    border-left: 1px solid #3a2d24;
+    height: 50px;
+    margin-left: 35px;
+}
+
+.active-line {
+    border-left: 1px dashed #3a2d24;
+}
+
+.complete-line {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .direction {
+        padding: 8px 12px;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    .position {
+        height: 40px;
+        width: 40px;
+        font-size: 16px;
+    }
+
+    .vertical-line {
+        height: 40px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .direction-wrapper {
+        gap: 8px;
+    }
+
+    .direction {
+        padding: 6px 10px;
+        gap: 8px;
+        font-size: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .position {
+        height: 35px;
+        width: 35px;
+        font-size: 14px;
+    }
+
+    .vertical-line {
+        height: 30px;
+        margin-left: 25px;
+    }
+}
