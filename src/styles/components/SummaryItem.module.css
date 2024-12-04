@@ -1,0 +1,33 @@
+.summary-item {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    text-align: left;
+    font-size: 20px;
+    color: #333;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.value {
+    color: #b3a99f;
+}
+
+@media (max-width: 768px) {
+    .summary-item {
+        font-size: 18px;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .summary-item {
+        font-size: 16px;
+        gap: 8px;
+    }
+}
